@@ -725,4 +725,4 @@ Before submitting, verify:
 
 Remember: This is a portfolio piece! Make it yours, be creative, and showcase your skills. You're not just learning concepts - you're building something you can deploy and share with the world.
 
-Good luck, and happy coding! =€
+Good luck, and happy coding!
