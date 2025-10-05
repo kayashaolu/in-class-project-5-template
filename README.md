@@ -579,7 +579,7 @@ Add a dark mode toggle that persists across page refreshes:
 
 ```javascript
 // Add theme toggle button to your HTML navbar:
-// <button class="theme-toggle"><</button>
+// <button class="theme-toggle">🌙</button>
 
 const themeToggle = document.querySelector('.theme-toggle');
 
@@ -587,7 +587,7 @@ const themeToggle = document.querySelector('.theme-toggle');
 const savedTheme = localStorage.getItem('theme');
 if (savedTheme === 'dark') {
     document.body.classList.add('dark-theme');
-    themeToggle.textContent = ' ';
+    themeToggle.textContent = '☀️';
 }
 
 // Toggle theme
@@ -596,10 +596,10 @@ themeToggle.addEventListener('click', () => {
 
     if (document.body.classList.contains('dark-theme')) {
         localStorage.setItem('theme', 'dark');
-        themeToggle.textContent = ' ';
+        themeToggle.textContent = '☀️';
     } else {
         localStorage.setItem('theme', 'light');
-        themeToggle.textContent = '<';
+        themeToggle.textContent = '🌙';
     }
 });
 ```
